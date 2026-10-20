@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "total_kejadian": 9595,
+    "katalog_mentah_usgs": 10841,
+    "dikeluarkan_label_negara_lain": 1246,
+    "berlabel_timor_leste_dipertahankan": 670,
+    "periode": "1 Januari 2015 – 20 Oktober 2026",
+    "tahun_2026_partial": "2026 hanya sampai 20 Oktober",
+    "ambang_magnitudo": 4.5,
+    "sumber_katalog": "USGS FDSN Event API (kotak batas Indonesia)",
+    "sumber_snapshot": "BMKG TEWS (autogempa, gempaterkini, gempadirasakan), diambil 20 Oktober 2026"
+  },
+  "per_tahun": {
+    "2015": 769,
+    "2016": 595,
+    "2017": 671,
+    "2018": 896,
+    "2019": 1040,
+    "2020": 645,
+    "2021": 816,
+    "2022": 875,
+    "2023": 883,
+    "2024": 671,
+    "2025": 752,
+    "2026": 982
+  },
+  "magnitudo": {
+    "m5plus": 2233,
+    "m6plus": 155,
+    "m7plus": 16,
+    "median": 4.7,
+    "terbesar": {
+      "tanggal": "2026-08-15",
+      "magnitudo": 7.8,
+      "kedalaman_km": 10.0,
+      "lokasi_usgs": "66 km NNW of Ende, Indonesia",
+      "wilayah": "Nusa Tenggara Timur",
+      "flag_tsunami_usgs": 0
+    }
+  },
+  "kedalaman": {
+    "Dangkal (<70 km)": {
+      "jumlah": 6841,
+      "persen": 71.3
+    },
+    "Menengah (70-300 km)": {
+      "jumlah": 2439,
+      "persen": 25.4
+    },
+    "Dalam (>300 km)": {
+      "jumlah": 315,
+      "persen": 3.3
+    },
+    "median_km": 36.2,
+    "terdalam_km": 652.5,
+    "dangkal_m6plus": 106
+  },
+  "wilayah": {
+    "Halmahera & Maluku Utara": {
+      "jumlah": 2061,
+      "mag_maks": 7.4,
+      "m6plus": 23
+    },
+    "Sumatera": {
+      "jumlah": 1514,
+      "mag_maks": 7.1,
+      "m6plus": 29
+    },
+    "Papua": {
+      "jumlah": 1108,
+      "mag_maks": 7.0,
+      "m6plus": 17
+    },
+    "Sulawesi": {
+      "jumlah": 1061,
+      "mag_maks": 7.5,
+      "m6plus": 19
+    },
+    "Bali & Nusa Tenggara": {
+      "jumlah": 746,
+      "mag_maks": 6.9,
+      "m6plus": 10
+    },
+    "Nusa Tenggara Timur": {
+      "jumlah": 716,
+      "mag_maks": 7.8,
+      "m6plus": 10
+    },
+    "Lainnya/Lepas Pantai": {
+      "jumlah": 711,
+      "mag_maks": 7.6,
+      "m6plus": 16
+    },
+    "Jawa": {
+      "jumlah": 693,
+      "mag_maks": 7.0,
+      "m6plus": 10
+    },
+    "Maluku (Seram & Buru)": {
+      "jumlah": 525,
+      "mag_maks": 6.9,
+      "m6plus": 6
+    },
+    "Laut Banda": {
+      "jumlah": 369,
+      "mag_maks": 7.3,
+      "m6plus": 11
+    },
+    "Laut Maluku": {
+      "jumlah": 53,
+      "mag_maks": 6.6,
+      "m6plus": 1
+    },
+    "Kalimantan": {
+      "jumlah": 15,
+      "mag_maks": 6.1,
+      "m6plus": 1
+    },
+    "Laut Flores": {
+      "jumlah": 8,
+      "mag_maks": 7.3,
+      "m6plus": 1
+    },
+    "Laut Arafura": {
+      "jumlah": 4,
+      "mag_maks": 5.0,
+      "m6plus": 0
+    },
+    "Laut Seram": {
+      "jumlah": 4,
+      "mag_maks": 5.1,
+      "m6plus": 0
+    },
+    "Selat Sunda": {
+      "jumlah": 3,
+      "mag_maks": 4.6,
+      "m6plus": 0
+    },
+    "Laut Sawu": {
+      "jumlah": 1,
+      "mag_maks": 5.0,
+      "m6plus": 0
+    },
+    "Laut Jawa": {
+      "jumlah": 1,
+      "mag_maks": 6.6,
+      "m6plus": 1
+    },
+    "Laut Sulawesi": {
+      "jumlah": 1,
+      "mag_maks": 4.5,
+      "m6plus": 0
+    },
+    "Samudra Hindia": {
+      "jumlah": 1,
+      "mag_maks": 5.0,
+      "m6plus": 0
+    }
+  },
+  "tsunami": {
+    "total_flag_usgs": 17,
+    "per_tahun": {
+      "2015": 2,
+      "2016": 1,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2023": 4,
+      "2024": 1,
+      "2025": 3
+    },
+    "contoh_terbesar": [
+      {
+        "tanggal": "2019-06-24",
+        "magnitudo": 7.3,
+        "kedalaman_km": 212.0,
+        "lokasi_usgs": "Banda Sea",
+        "wilayah": "Laut Banda"
+      },
+      {
+        "tanggal": "2021-12-14",
+        "magnitudo": 7.3,
+        "kedalaman_km": 14.3,
+        "lokasi_usgs": "Flores Sea",
+        "wilayah": "Laut Flores"
+      },
+      {
+        "tanggal": "2019-11-14",
+        "magnitudo": 7.1,
+        "kedalaman_km": 33.0,
+        "lokasi_usgs": "141 km NW of Ternate, Indonesia",
+        "wilayah": "Halmahera & Maluku Utara"
+      },
+      {
+        "tanggal": "2023-08-29",
+        "magnitudo": 7.1,
+        "kedalaman_km": 500.0,
+        "lokasi_usgs": "180 km NNE of Gili Air, Indonesia",
+        "wilayah": "Lainnya/Lepas Pantai"
+      },
+      {
+        "tanggal": "2015-07-28",
+        "magnitudo": 7.0,
+        "kedalaman_km": 48.0,
+        "lokasi_usgs": "234 km W of Abepura, Indonesia",
+        "wilayah": "Papua"
+      }
+    ],
+    "catatan": "Flag USGS menandai gempa yang berpotensi/dinilai tsunami oleh sistem peringatan; bukan berarti tsunami merusak selalu terjadi."
+  },
+  "bmkg": {
+    "terkini_m5plus": [
+      {
+        "tanggal": "18 Okt 2026",
+        "jam": "15:00:08 WIB",
+        "magnitudo": 5.3,
+        "kedalaman": "10 km",
+        "wilayah": "60 km TimurLaut LABUANBAJO-NTT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "12 Okt 2026",
+        "jam": "04:34:53 WIB",
+        "magnitudo": 5.7,
+        "kedalaman": "76 km",
+        "wilayah": "29 km BaratLaut POHUWATO-GORONTALO",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "11 Okt 2026",
+        "jam": "10:30:20 WIB",
+        "magnitudo": 5.7,
+        "kedalaman": "10 km",
+        "wilayah": "193 km BaratDaya KAB-SUKABUMI-JABAR",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "09 Okt 2026",
+        "jam": "12:11:04 WIB",
+        "magnitudo": 5.1,
+        "kedalaman": "10 km",
+        "wilayah": "125 km Tenggara BITUNG-SULUT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "08 Okt 2026",
+        "jam": "15:07:56 WIB",
+        "magnitudo": 5.8,
+        "kedalaman": "10 km",
+        "wilayah": "230 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "07 Okt 2026",
+        "jam": "03:15:26 WIB",
+        "magnitudo": 5.2,
+        "kedalaman": "92 km",
+        "wilayah": "9 km Tenggara LOMBOKBARAT-NTB",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "06 Okt 2026",
+        "jam": "20:11:23 WIB",
+        "magnitudo": 5.3,
+        "kedalaman": "10 km",
+        "wilayah": "219 km TimurLaut TARAKAN-KALTARA",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "04 Okt 2026",
+        "jam": "06:37:31 WIB",
+        "magnitudo": 5.9,
+        "kedalaman": "26 km",
+        "wilayah": "68 km BaratDaya CALANG-ACEHJAYA",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "04 Okt 2026",
+        "jam": "05:55:52 WIB",
+        "magnitudo": 6.1,
+        "kedalaman": "10 km",
+        "wilayah": "14 km BaratDaya KODI-SUMBABARATDAYA-NTT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "01 Okt 2026",
+        "jam": "21:20:00 WIB",
+        "magnitudo": 5.1,
+        "kedalaman": "10 km",
+        "wilayah": "111 km Tenggara SELAYAR-SULSEL",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "22 Sep 2026",
+        "jam": "06:48:13 WIB",
+        "magnitudo": 5.2,
+        "kedalaman": "10 km",
+        "wilayah": "127 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "21 Sep 2026",
+        "jam": "14:31:07 WIB",
+        "magnitudo": 5.3,
+        "kedalaman": "10 km",
+        "wilayah": "26 km BaratDaya PULAUPUAH-SULTENG",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "21 Sep 2026",
+        "jam": "08:41:37 WIB",
+        "magnitudo": 5.3,
+        "kedalaman": "10 km",
+        "wilayah": "34 km TimurLaut RUTENG-MANGGARAI-NTT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "19 Sep 2026",
+        "jam": "11:18:36 WIB",
+        "magnitudo": 5.1,
+        "kedalaman": "10 km",
+        "wilayah": "33 km TimurLaut SARMI-PAPUA",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "18 Sep 2026",
+        "jam": "21:36:17 WIB",
+        "magnitudo": 5.2,
+        "kedalaman": "10 km",
+        "wilayah": "198 km BaratDaya BAYAH-BANTEN",
+        "potensi": "Tidak berpotensi tsunami"
+      }
+    ],
+    "dirasakan_terbaru": [
+      {
+        "tanggal": "20 Okt 2026",
+        "magnitudo": 3.7,
+        "wilayah": "Pusat gempa berada di laut 6 km Barat Laut Pulau Saringi",
+        "dirasakan": "III Kab. Sumbawa"
+      },
+      {
+        "tanggal": "20 Okt 2026",
+        "magnitudo": 3.4,
+        "wilayah": "Pusat gempa berada di darat 30km Barat Daya Kab. Kupang",
+        "dirasakan": "III Kab. Kupang, III Kota Kupang"
+      },
+      {
+        "tanggal": "19 Okt 2026",
+        "magnitudo": 4.2,
+        "wilayah": "Pusat gempa berada di darat 26 km Timur Laut Kab. Gayo Lues",
+        "dirasakan": "III Kab. Gayo Lues, II Aceh Timur"
+      },
+      {
+        "tanggal": "19 Okt 2026",
+        "magnitudo": 4.5,
+        "wilayah": "Pusat gempa berada di laut 60 km Utara Labuanbajo",
+        "dirasakan": "II Kab. Manggarai"
+      },
+      {
+        "tanggal": "19 Okt 2026",
+        "magnitudo": 4.7,
+        "wilayah": "Pusat gempa berada di laut 61 km utara Labuan Bajo",
+        "dirasakan": "II Kab. Manggarai"
+      }
+    ],
+    "gempa_terbaru_saat_ambil": {
+      "tanggal": "20 Okt 2026",
+      "jam": "18:28:11 WIB",
+      "magnitudo": 3.7,
+      "wilayah": "Pusat gempa berada di laut 6 km Barat Laut Pulau Saringi",
+      "dirasakan": "III Kab. Sumbawa"
+    },
+    "okt2026_dari_terkini": [
+      {
+        "tanggal": "18 Okt 2026",
+        "magnitudo": 5.3,
+        "wilayah": "60 km TimurLaut LABUANBAJO-NTT"
+      },
+      {
+        "tanggal": "12 Okt 2026",
+        "magnitudo": 5.7,
+        "wilayah": "29 km BaratLaut POHUWATO-GORONTALO"
+      },
+      {
+        "tanggal": "11 Okt 2026",
+        "magnitudo": 5.7,
+        "wilayah": "193 km BaratDaya KAB-SUKABUMI-JABAR"
+      },
+      {
+        "tanggal": "09 Okt 2026",
+        "magnitudo": 5.1,
+        "wilayah": "125 km Tenggara BITUNG-SULUT"
+      },
+      {
+        "tanggal": "08 Okt 2026",
+        "magnitudo": 5.8,
+        "wilayah": "230 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT"
+      },
+      {
+        "tanggal": "07 Okt 2026",
+        "magnitudo": 5.2,
+        "wilayah": "9 km Tenggara LOMBOKBARAT-NTB"
+      },
+      {
+        "tanggal": "06 Okt 2026",
+        "magnitudo": 5.3,
+        "wilayah": "219 km TimurLaut TARAKAN-KALTARA"
+      },
+      {
+        "tanggal": "04 Okt 2026",
+        "magnitudo": 5.9,
+        "wilayah": "68 km BaratDaya CALANG-ACEHJAYA"
+      },
+      {
+        "tanggal": "04 Okt 2026",
+        "magnitudo": 6.1,
+        "wilayah": "14 km BaratDaya KODI-SUMBABARATDAYA-NTT"
+      },
+      {
+        "tanggal": "01 Okt 2026",
+        "magnitudo": 5.1,
+        "wilayah": "111 km Tenggara SELAYAR-SULSEL"
+      }
+    ]
+  },
+  "rata_per_tahun_penuh": 783.0,
+  "top10_terbesar": [
+    {
+      "tanggal": "2026-08-15",
+      "magnitudo": 7.8,
+      "kedalaman_km": 10.0,
+      "lokasi_usgs": "66 km NNW of Ende, Indonesia",
+      "wilayah": "Nusa Tenggara Timur",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2023-01-10",
+      "magnitudo": 7.6,
+      "kedalaman_km": 105.0,
+      "lokasi_usgs": "Pulau Pulau Tanimbar, Indonesia",
+      "wilayah": "Lainnya/Lepas Pantai",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2018-09-28",
+      "magnitudo": 7.5,
+      "kedalaman_km": 20.0,
+      "lokasi_usgs": "72 km N of Palu, Indonesia",
+      "wilayah": "Sulawesi",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2026-04-02",
+      "magnitudo": 7.4,
+      "kedalaman_km": 35.0,
+      "lokasi_usgs": "129 km ESE of Bitung, Indonesia",
+      "wilayah": "Halmahera & Maluku Utara",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2019-06-24",
+      "magnitudo": 7.3,
+      "kedalaman_km": 212.0,
+      "lokasi_usgs": "Banda Sea",
+      "wilayah": "Laut Banda",
+      "flag_tsunami_usgs": 1
+    },
+    {
+      "tanggal": "2021-12-14",
+      "magnitudo": 7.3,
+      "kedalaman_km": 14.3,
+      "lokasi_usgs": "Flores Sea",
+      "wilayah": "Laut Flores",
+      "flag_tsunami_usgs": 1
+    },
+    {
+      "tanggal": "2021-12-30",
+      "magnitudo": 7.3,
+      "kedalaman_km": 165.5,
+      "lokasi_usgs": "125 km NNE of Lospalos, Timor Leste",
+      "wilayah": "Nusa Tenggara Timur",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2019-07-14",
+      "magnitudo": 7.2,
+      "kedalaman_km": 19.0,
+      "lokasi_usgs": "155 km SSE of Sofifi, Indonesia",
+      "wilayah": "Halmahera & Maluku Utara",
+      "flag_tsunami_usgs": 0
+    },
+    {
+      "tanggal": "2019-11-14",
+      "magnitudo": 7.1,
+      "kedalaman_km": 33.0,
+      "lokasi_usgs": "141 km NW of Ternate, Indonesia",
+      "wilayah": "Halmahera & Maluku Utara",
+      "flag_tsunami_usgs": 1
+    },
+    {
+      "tanggal": "2023-04-25",
+      "magnitudo": 7.1,
+      "kedalaman_km": 34.0,
+      "lokasi_usgs": "171 km SSE of Teluk Dalam, Indonesia",
+      "wilayah": "Sumatera",
+      "flag_tsunami_usgs": 0
+    }
+  ],
+  "wilayah_teraktif": "Halmahera & Maluku Utara"
+}
