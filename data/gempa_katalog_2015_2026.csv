@@ -9334,6 +9334,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-08-17 16:16:04,2026-08-17,2026,2026-08,5.0,mb,10.0,Dangkal (<70 km),-8.312,121.4184,"64 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,usd0015ed1
 2026-08-17 17:42:41,2026-08-17,2026,2026-08,5.3,mb,10.0,Dangkal (<70 km),-7.8141,120.4341,"88 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,usd0015ed7
 2026-08-17 17:44:49,2026-08-17,2026,2026-08,5.4,mb,10.0,Dangkal (<70 km),-7.9023,120.4192,"78 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,4.248,usd0015ed8
+2026-08-17 17:45:28,2026-08-17,2026,2026-08,4.6,mb,59.7,Dangkal (<70 km),-2.9786,101.4157,"102 km S of Sungai Penuh, Indonesia",Sumatera,0,,us6000tmk7
 2026-08-17 18:00:13,2026-08-17,2026,2026-08,4.8,mb,10.0,Dangkal (<70 km),-7.7806,120.7043,"95 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tmka
 2026-08-17 19:19:35,2026-08-17,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-8.2054,119.7706,"34 km NNW of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us6000tmkd
 2026-08-17 19:33:21,2026-08-17,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-6.9781,121.7979,"187 km NNW of Maumere, Indonesia",Lainnya/Lepas Pantai,0,,us6000tmjx
@@ -9394,7 +9395,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-08-20 16:30:52,2026-08-20,2026,2026-08,5.3,mb,10.0,Dangkal (<70 km),-8.2675,120.6324,"42 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tm2v
 2026-08-20 17:08:25,2026-08-20,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-7.8261,120.97,"103 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tm31
 2026-08-20 19:28:48,2026-08-20,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-7.995,121.216,"105 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,us6000tm9q
-2026-08-21 01:12:51,2026-08-21,2026,2026-08,5.6,mb,10.0,Dangkal (<70 km),-8.297,121.3718,"68 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,5.223,us6000tm8h
+2026-08-21 01:12:51,2026-08-21,2026,2026-08,5.2,mww,10.0,Dangkal (<70 km),-8.2634,121.3836,"71 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,5.223,us6000tm8h
 2026-08-21 01:30:02,2026-08-21,2026,2026-08,5.0,mb,10.0,Dangkal (<70 km),-8.3073,120.2123,"41 km ENE of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us7000tc70
 2026-08-21 02:15:34,2026-08-21,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-7.9831,120.7499,"76 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tc71
 2026-08-21 02:24:02,2026-08-21,2026,2026-08,5.0,mb,10.0,Dangkal (<70 km),-8.402,121.2108,"69 km NW of Ende, Indonesia",Nusa Tenggara Timur,0,,us6000tm93
@@ -9431,7 +9432,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-08-24 08:12:59,2026-08-24,2026,2026-08,4.6,mb,10.0,Dangkal (<70 km),-8.2851,120.396,"36 km NNW of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tn1k
 2026-08-24 09:19:39,2026-08-24,2026,2026-08,4.7,mb,10.0,Dangkal (<70 km),-7.978,120.4269,"70 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tn1v
 2026-08-24 17:02:58,2026-08-24,2026,2026-08,5.4,mww,10.0,Dangkal (<70 km),-5.1225,129.7241,"216 km SSE of Amahai, Indonesia",Lainnya/Lepas Pantai,0,3.653,us6000tn33
-2026-08-24 21:10:17,2026-08-24,2026,2026-08,6.0,mww,10.0,Dangkal (<70 km),-6.6551,127.4245,"211 km NNE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,3.998,us6000tn41
+2026-08-24 21:10:16,2026-08-24,2026,2026-08,6.0,mww,8.0,Dangkal (<70 km),-6.6585,127.4253,"211 km NNE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,3.998,us6000tn41
 2026-08-24 22:12:14,2026-08-24,2026,2026-08,4.8,mb,10.0,Dangkal (<70 km),-7.793,120.4309,"90 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tn4m
 2026-08-25 02:00:03,2026-08-25,2026,2026-08,5.0,mb,9.9,Dangkal (<70 km),-6.6988,127.4995,"209 km NNE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,,us6000tn80
 2026-08-25 07:05:24,2026-08-25,2026,2026-08,4.9,mb,10.0,Dangkal (<70 km),-8.3518,120.1917,"37 km ENE of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us6000tn9w
@@ -9451,7 +9452,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-08-26 14:07:49,2026-08-26,2026,2026-08,4.6,mb,10.0,Dangkal (<70 km),-7.858,120.4357,"83 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tbxi
 2026-08-26 14:48:06,2026-08-26,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-8.2824,121.1563,"83 km NW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tbxm
 2026-08-26 16:47:33,2026-08-26,2026,2026-08,4.6,mb,10.0,Dangkal (<70 km),-8.3209,121.3582,"66 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tbxz
-2026-08-26 21:15:30,2026-08-26,2026,2026-08,5.0,mww,10.0,Dangkal (<70 km),-8.3493,121.4223,"60 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tbyu
+2026-08-26 21:15:30,2026-08-26,2026,2026-08,5.0,mww,10.0,Dangkal (<70 km),-8.3493,121.4222,"60 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tbyu
 2026-08-26 23:52:48,2026-08-26,2026,2026-08,4.7,mb,10.0,Dangkal (<70 km),-8.3149,121.2015,"77 km NW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tbzr
 2026-08-27 01:23:13,2026-08-27,2026,2026-08,4.9,mb,10.0,Dangkal (<70 km),-8.376,120.6226,"31 km NE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tc0k
 2026-08-27 01:34:58,2026-08-27,2026,2026-08,4.5,mb,10.0,Dangkal (<70 km),-8.3246,120.6242,"36 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tc0p
@@ -9497,7 +9498,6 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-09-09 04:42:22,2026-09-09,2026,2026-09,4.6,mb,16.3,Dangkal (<70 km),-8.1811,120.5204,"47 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tfxd
 2026-09-09 18:12:15,2026-09-09,2026,2026-09,4.5,mb,64.6,Dangkal (<70 km),-9.0233,123.7265,"63 km N of Naisano Dua, Indonesia",Nusa Tenggara Timur,0,,us7000tg1l
 2026-09-10 00:45:51,2026-09-10,2026,2026-09,4.6,mb,67.4,Dangkal (<70 km),-8.8348,123.9778,"60 km NW of Pante Makasar, Timor Leste",Nusa Tenggara Timur,0,,us7000thui
-2026-09-10 18:17:55,2026-09-10,2026,2026-09,4.5,mb,222.3,Menengah (70-300 km),2.5366,128.3812,"98 km NNE of Tobelo, Indonesia",Halmahera & Maluku Utara,0,,us7000thvn
 2026-09-11 01:44:40,2026-09-11,2026,2026-09,5.0,mww,10.0,Dangkal (<70 km),-8.4254,127.7801,"86 km E of Lospalos, Timor Leste",Nusa Tenggara Timur,0,,us7000tgf2
 2026-09-11 07:53:47,2026-09-11,2026,2026-09,4.5,mb,10.0,Dangkal (<70 km),-0.4853,120.0976,"53 km NNE of Palu, Indonesia",Sulawesi,0,,us7000tgi9
 2026-09-11 18:56:23,2026-09-11,2026,2026-09,5.9,mww,115.0,Menengah (70-300 km),-7.2214,128.922,"256 km NE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,3.939,us7000tgl2
@@ -9508,7 +9508,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-09-14 05:40:01,2026-09-14,2026,2026-09,5.0,mww,10.0,Dangkal (<70 km),-8.2071,120.2454,"50 km NE of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us7000th8u
 2026-09-14 07:53:47,2026-09-14,2026,2026-09,4.5,mb,10.0,Dangkal (<70 km),-8.1416,120.2945,"55 km NNW of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000th9i
 2026-09-14 08:42:08,2026-09-14,2026,2026-09,4.8,mb,31.9,Dangkal (<70 km),-9.309,112.8866,"122 km S of Dampit, Indonesia",Jawa,0,,us7000th9m
-2026-09-14 16:27:38,2026-09-14,2026,2026-09,5.3,mwb,12.0,Dangkal (<70 km),-8.6882,105.7213,"209 km SSW of Pelabuhanratu, Indonesia",Jawa,0,0.0,us7000thc6
+2026-09-14 16:27:38,2026-09-14,2026,2026-09,5.3,mwb,12.0,Dangkal (<70 km),-8.7321,105.7805,"210 km SSW of Pelabuhanratu, Indonesia",Jawa,0,0.0,us7000thc6
 2026-09-14 17:58:03,2026-09-14,2026,2026-09,5.6,mww,163.1,Menengah (70-300 km),2.4234,128.1898,"79 km NNE of Tobelo, Indonesia",Halmahera & Maluku Utara,0,3.388,us7000thcs
 2026-09-15 00:55:15,2026-09-15,2026,2026-09,4.6,mb,10.0,Dangkal (<70 km),-1.8336,128.1779,"154 km SSE of Labuha, Indonesia",Maluku (Seram & Buru),0,,us7000thfh
 2026-09-15 04:17:25,2026-09-15,2026,2026-09,4.5,mb,70.0,Menengah (70-300 km),3.1402,126.5358,"226 km NW of Tobelo, Indonesia",Halmahera & Maluku Utara,0,,us7000ticf
@@ -9520,14 +9520,14 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-09-18 02:17:33,2026-09-18,2026,2026-09,4.5,mb,10.0,Dangkal (<70 km),-7.7582,104.4708,"214 km SW of Labuan, Indonesia",Sumatera,0,,us7000ti5c
 2026-09-18 03:23:45,2026-09-18,2026,2026-09,4.6,mb,69.0,Dangkal (<70 km),-5.6816,130.7889,"217 km W of Tual, Indonesia",Papua,0,,us7000ti5v
 2026-09-18 19:20:56,2026-09-18,2026,2026-09,4.7,mb,10.0,Dangkal (<70 km),-8.2337,120.5812,"43 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000ti9c
-2026-09-18 21:36:18,2026-09-18,2026,2026-09,5.2,mb,10.0,Dangkal (<70 km),-8.4912,105.8744,"182 km SSW of Pelabuhanratu, Indonesia",Jawa,0,,us7000tib8
-2026-09-18 23:37:23,2026-09-18,2026,2026-09,4.6,mb,86.1,Menengah (70-300 km),-4.1133,102.2302,"34 km S of Bengkulu, Indonesia",Sumatera,0,,us7000tid2
+2026-09-18 21:36:17,2026-09-18,2026,2026-09,5.2,mb,10.0,Dangkal (<70 km),-8.6065,105.9192,"192 km SSW of Pelabuhanratu, Indonesia",Jawa,0,,us7000tib8
+2026-09-18 23:37:19,2026-09-18,2026,2026-09,4.6,mb,40.8,Dangkal (<70 km),-4.1574,102.2258,"39 km S of Bengkulu, Indonesia",Sumatera,0,,us7000tid2
 2026-09-19 00:42:37,2026-09-19,2026,2026-09,4.5,mb,10.0,Dangkal (<70 km),-8.7071,105.6209,"216 km SSW of Pelabuhanratu, Indonesia",Jawa,0,,us7000tidr
 2026-09-19 11:18:35,2026-09-19,2026,2026-09,5.2,mb,10.0,Dangkal (<70 km),-1.8343,138.9067,"209 km WNW of Abepura, Indonesia",Papua,0,,us7000tih8
 2026-09-19 14:44:25,2026-09-19,2026,2026-09,4.8,mb,10.0,Dangkal (<70 km),-2.6036,138.7889,"205 km W of Abepura, Indonesia",Papua,0,,us7000tiib
 2026-09-19 20:56:00,2026-09-19,2026,2026-09,5.2,mb,10.0,Dangkal (<70 km),-8.1989,120.8262,"60 km NE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us7000tiju
 2026-09-20 22:39:26,2026-09-20,2026,2026-09,4.6,mb,10.0,Dangkal (<70 km),-6.9664,127.4259,"178 km NNE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,,us7000tiw0
-2026-09-21 08:41:36,2026-09-21,2026,2026-09,5.0,mww,10.0,Dangkal (<70 km),-8.3118,120.5899,"35 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,6.701,us7000tiur
+2026-09-21 08:41:36,2026-09-21,2026,2026-09,5.0,mww,10.0,Dangkal (<70 km),-8.3189,120.5908,"35 km NNE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,6.701,us7000tiur
 2026-09-21 14:31:07,2026-09-21,2026,2026-09,4.9,mb,10.0,Dangkal (<70 km),-0.7662,122.4619,"41 km WNW of Luwuk, Indonesia",Sulawesi,0,,us7000tiw4
 2026-09-21 16:32:50,2026-09-21,2026,2026-09,4.6,mb,55.4,Dangkal (<70 km),0.8657,126.6233,"85 km W of Ternate, Indonesia",Halmahera & Maluku Utara,0,,us7000tiwi
 2026-09-22 10:36:25,2026-09-22,2026,2026-09,4.7,mb,10.0,Dangkal (<70 km),-8.3915,121.5246,"52 km NNW of Ende, Indonesia",Nusa Tenggara Timur,0,,us7000tj37
@@ -9535,25 +9535,26 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-09-23 05:27:39,2026-09-23,2026,2026-09,4.5,mb,35.0,Dangkal (<70 km),-6.8894,105.4864,"68 km SW of Labuan, Indonesia",Jawa,0,,us6000twzp
 2026-09-23 19:23:18,2026-09-23,2026,2026-09,4.6,mb,35.0,Dangkal (<70 km),1.2474,126.3547,"125 km WNW of Ternate, Indonesia",Halmahera & Maluku Utara,0,,us6000tx31
 2026-09-24 07:26:38,2026-09-24,2026,2026-09,4.6,mb,35.0,Dangkal (<70 km),-1.8513,138.8464,"215 km WNW of Abepura, Indonesia",Papua,0,,us6000tx7g
+2026-09-24 17:48:57,2026-09-24,2026,2026-09,4.5,mb,47.9,Dangkal (<70 km),2.1769,127.2333,"99 km WNW of Tobelo, Indonesia",Halmahera & Maluku Utara,0,,us6000txb1
 2026-09-24 23:28:01,2026-09-24,2026,2026-09,4.5,mb,83.3,Menengah (70-300 km),-3.3098,139.9601,"108 km SW of Abepura, Indonesia",Papua,0,,us6000txcw
 2026-09-25 03:05:26,2026-09-25,2026,2026-09,4.6,mb,52.3,Dangkal (<70 km),1.8906,126.5037,"156 km NW of Ternate, Indonesia",Halmahera & Maluku Utara,0,,us6000txg5
 2026-09-25 11:27:40,2026-09-25,2026,2026-09,5.1,mb,10.0,Dangkal (<70 km),-7.4166,125.6697,"123 km N of Metinaro, Timor Leste",Nusa Tenggara Timur,0,,us6000txim
 2026-09-25 20:47:27,2026-09-25,2026,2026-09,4.7,mb,10.0,Dangkal (<70 km),-6.8071,105.3486,"71 km SW of Labuan, Indonesia",Jawa,0,,us6000txkc
-2026-09-26 02:39:29,2026-09-26,2026,2026-09,4.8,mb,14.5,Dangkal (<70 km),-8.2281,120.4296,"42 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000txnq
-2026-09-26 20:38:15,2026-09-26,2026,2026-09,4.6,mb,235.1,Menengah (70-300 km),-7.8646,123.2938,"145 km NE of Maumere, Indonesia",Nusa Tenggara Timur,0,,us6000txt8
+2026-09-26 02:39:28,2026-09-26,2026,2026-09,4.8,mb,10.0,Dangkal (<70 km),-8.2237,120.3702,"44 km NNW of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000txnq
+2026-09-26 20:38:15,2026-09-26,2026,2026-09,4.5,mb,232.0,Menengah (70-300 km),-7.8462,123.3361,"150 km NE of Maumere, Indonesia",Nusa Tenggara Timur,0,,us6000txt8
 2026-09-27 02:37:01,2026-09-27,2026,2026-09,4.9,mb,10.0,Dangkal (<70 km),-8.1482,120.3303,"53 km NNW of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000txur
 2026-09-27 12:23:41,2026-09-27,2026,2026-09,4.6,mb,10.0,Dangkal (<70 km),-6.6115,102.5041,"297 km SSW of Pagar Alam, Indonesia",Sumatera,0,,us6000tz5w
 2026-09-28 04:14:44,2026-09-28,2026,2026-09,4.6,mb,10.0,Dangkal (<70 km),-8.9624,123.8981,"59 km WNW of Pante Makasar, Timor Leste",Nusa Tenggara Timur,0,,us6000ty0k
-2026-09-29 21:14:05,2026-09-29,2026,2026-09,4.9,mb,153.0,Menengah (70-300 km),-8.8321,123.9679,"61 km NW of Pante Makasar, Timor Leste",Nusa Tenggara Timur,0,,us6000tyc9
-2026-09-30 17:58:50,2026-09-30,2026,2026-09,5.0,mb,19.4,Dangkal (<70 km),-9.9243,123.6462,"27 km N of Kupang, Indonesia",Nusa Tenggara Timur,0,,us6000tyjb
-2026-10-01 08:31:23,2026-10-01,2026,2026-10,4.6,mb,116.4,Menengah (70-300 km),-0.863,123.1839,"45 km ENE of Luwuk, Indonesia",Sulawesi,0,,us6000typ0
-2026-10-01 09:09:19,2026-10-01,2026,2026-10,4.5,mb,94.8,Menengah (70-300 km),-6.154,130.346,"272 km WSW of Tual, Indonesia",Lainnya/Lepas Pantai,0,,us6000typ5
+2026-09-29 21:14:05,2026-09-29,2026,2026-09,4.9,mb,157.1,Menengah (70-300 km),-8.7188,124.0814,"62 km NNW of Pante Makasar, Timor Leste",Nusa Tenggara Timur,0,,us6000tyc9
+2026-09-30 17:58:49,2026-09-30,2026,2026-09,4.9,mb,10.0,Dangkal (<70 km),-9.8927,123.679,"31 km NNE of Kupang, Indonesia",Nusa Tenggara Timur,0,,us6000tyjb
+2026-10-01 08:31:19,2026-10-01,2026,2026-10,4.6,mb,71.8,Menengah (70-300 km),-0.8263,123.3144,"60 km ENE of Luwuk, Indonesia",Sulawesi,0,,us6000typ0
+2026-10-01 09:09:21,2026-10-01,2026,2026-10,4.5,mb,115.0,Menengah (70-300 km),-6.1934,130.1379,"296 km WSW of Tual, Indonesia",Lainnya/Lepas Pantai,0,,us6000typ5
 2026-10-01 21:19:59,2026-10-01,2026,2026-10,5.0,mb,10.0,Dangkal (<70 km),-7.0506,120.8431,"177 km NNE of Ruteng, Indonesia",Lainnya/Lepas Pantai,0,,us6000tyua
 2026-10-02 00:37:11,2026-10-02,2026,2026-10,4.6,mb,10.0,Dangkal (<70 km),-7.9881,120.9146,"84 km NE of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tyw9
 2026-10-02 12:38:55,2026-10-02,2026,2026-10,4.8,mb,10.0,Dangkal (<70 km),2.5781,126.4944,"192 km WNW of Tobelo, Indonesia",Halmahera & Maluku Utara,0,,us6000tyzt
 2026-10-02 13:48:06,2026-10-02,2026,2026-10,4.5,mb,10.0,Dangkal (<70 km),-7.9511,121.0985,"101 km NE of Ruteng, Indonesia",Nusa Tenggara Timur,0,,us6000tyzy
 2026-10-04 05:55:55,2026-10-04,2026,2026-10,5.9,mww,46.0,Dangkal (<70 km),-9.5672,118.9078,"39 km WSW of Tambolaka, Indonesia",Bali & Nusa Tenggara,0,5.128,us6000tzer
-2026-10-04 06:37:34,2026-10-04,2026,2026-10,5.3,mww,56.3,Dangkal (<70 km),4.8247,95.1622,"81 km SSW of Banda Aceh, Indonesia",Sumatera,0,4.244,us6000tzfg
+2026-10-04 06:37:34,2026-10-04,2026,2026-10,5.3,mww,55.0,Dangkal (<70 km),4.7986,95.1352,"85 km SSW of Banda Aceh, Indonesia",Sumatera,0,4.244,us6000tzfg
 2026-10-04 17:13:07,2026-10-04,2026,2026-10,5.0,mb,10.0,Dangkal (<70 km),-8.2698,120.4532,"37 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tzi5
 2026-10-04 17:52:27,2026-10-04,2026,2026-10,4.8,mb,10.0,Dangkal (<70 km),-8.2236,120.5325,"43 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000tzi8
 2026-10-04 19:36:47,2026-10-04,2026,2026-10,4.6,mb,52.8,Dangkal (<70 km),-9.2014,112.6395,"110 km S of Dampit, Indonesia",Jawa,0,,us6000tziz
@@ -9577,8 +9578,7 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-10-11 04:38:09,2026-10-11,2026,2026-10,4.5,mb,29.6,Dangkal (<70 km),-5.403,102.5418,"171 km SSW of Pagar Alam, Indonesia",Sumatera,0,,us6000u1gu
 2026-10-11 10:30:17,2026-10-11,2026,2026-10,5.2,mb,10.0,Dangkal (<70 km),-8.6161,106.526,"180 km S of Pelabuhanratu, Indonesia",Jawa,0,,us6000u1i6
 2026-10-12 01:47:57,2026-10-12,2026,2026-10,4.6,mb,10.0,Dangkal (<70 km),-3.1323,130.6537,"184 km W of Fakfak, Indonesia",Maluku (Seram & Buru),0,,us6000u1ls
-2026-10-12 04:34:53,2026-10-12,2026,2026-10,5.2,mww,111.3,Menengah (70-300 km),0.5235,121.697,"152 km W of Gorontalo, Indonesia",Sulawesi,0,,us6000u1mj
-2026-10-12 05:07:25,2026-10-12,2026,2026-10,4.5,mb,10.0,Dangkal (<70 km),-4.079,136.2635,"116 km SE of Nabire, Indonesia",Papua,0,,us6000u1mv
+2026-10-12 04:34:53,2026-10-12,2026,2026-10,5.2,mww,110.2,Menengah (70-300 km),0.5303,121.7195,"149 km W of Gorontalo, Indonesia",Sulawesi,0,,us6000u1mj
 2026-10-12 12:28:09,2026-10-12,2026,2026-10,4.6,mb,121.1,Menengah (70-300 km),-8.3245,112.2189,"25 km SSE of Blitar, Indonesia",Jawa,0,,us6000u1q2
 2026-10-12 15:30:08,2026-10-12,2026,2026-10,4.7,mb,22.4,Dangkal (<70 km),-8.237,128.9661,"219 km E of Lospalos, Timor Leste",Nusa Tenggara Timur,0,,us6000u1qy
 2026-10-12 15:59:14,2026-10-12,2026,2026-10,4.6,mb,49.2,Dangkal (<70 km),0.6834,125.9293,"122 km SE of Bitung, Indonesia",Sulawesi,0,,us6000u1r3
@@ -9594,3 +9594,8 @@ waktu_wib,tanggal,tahun,bulan,magnitudo,tipe_magnitudo,kedalaman_km,kelas_kedala
 2026-10-19 16:45:56,2026-10-19,2026,2026-10,4.9,mb,10.0,Dangkal (<70 km),-8.1064,120.1872,"54 km NE of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us6000u3c1
 2026-10-19 17:10:56,2026-10-19,2026,2026-10,4.7,mb,10.0,Dangkal (<70 km),-8.0866,120.1454,"53 km NNE of Labuan Bajo, Indonesia",Bali & Nusa Tenggara,0,,us6000u3c5
 2026-10-19 19:06:01,2026-10-19,2026,2026-10,4.8,mb,10.0,Dangkal (<70 km),-8.1042,120.378,"56 km N of Ruteng, Indonesia",Bali & Nusa Tenggara,0,,us6000u3ch
+2026-10-20 20:27:24,2026-10-20,2026,2026-10,4.5,mb,10.0,Dangkal (<70 km),-3.7134,139.9987,"142 km SSW of Abepura, Indonesia",Papua,0,,us6000u3lx
+2026-10-20 23:29:38,2026-10-20,2026,2026-10,5.0,mww,75.9,Menengah (70-300 km),4.0005,95.993,"21 km SW of Meulaboh, Indonesia",Sumatera,0,,us6000u3nc
+2026-10-21 14:44:16,2026-10-21,2026,2026-10,5.1,mb,122.7,Menengah (70-300 km),-7.5619,128.1355,"164 km NE of Lospalos, Timor Leste",Nusa Tenggara Timur,0,,us6000u3t4
+2026-10-22 17:57:52,2026-10-22,2026,2026-10,4.9,mb,135.3,Menengah (70-300 km),-2.8037,102.1272,"85 km NNW of Curup, Indonesia",Sumatera,0,,us6000u42q
+2026-10-23 19:24:24,2026-10-23,2026,2026-10,4.5,mb,128.1,Menengah (70-300 km),-7.3421,128.4666,"207 km NE of Lospalos, Timor Leste",Lainnya/Lepas Pantai,0,,us6000u4bw
