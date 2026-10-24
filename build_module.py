@@ -114,7 +114,7 @@ P(f"Modul ini mengajak kamu membangun satu project analisis data nyata dari nol:
   f"di modul ini dihitung dari data — tidak ada yang dikarang.", "coversub")
 story.append(Spacer(1, 0.5 * cm))
 P("Sumber data: USGS FDSN Event API (katalog historis) dan BMKG TEWS (snapshot real-time). "
-  "Diambil 20 Oktober 2026. Tahun 2026 bersifat parsial (sampai 20 Oktober).", "warn")
+  "Diambil 24 Oktober 2026. Tahun 2026 bersifat parsial (sampai 24 Oktober).", "warn")
 story.append(PageBreak())
 
 # ---------- BAB 1 ----------
@@ -144,7 +144,7 @@ P("Project ini memakai dua sumber resmi yang saling melengkapi. Memahami peran "
   "satu sumber yang sempurna untuk semua pertanyaan.", "body")
 TABLE([
     ["Sumber", "Isi", "Dipakai untuk"],
-    ["USGS FDSN Event API", "Katalog gempa global; kita ambil kotak batas Indonesia, 2015–2026, M≥4,5 (10.841 kejadian mentah)", "Statistik historis: tren, magnitudo, kedalaman, wilayah"],
+    ["USGS FDSN Event API", f"Katalog gempa global; kita ambil kotak batas Indonesia, 2015–2026, M≥4,5 ({fmt(M['katalog_mentah_usgs'])} kejadian mentah)", "Statistik historis: tren, magnitudo, kedalaman, wilayah"],
     ["BMKG TEWS API", "Gempa terbaru, 15 gempa M5+ terakhir, 15 gempa dirasakan terakhir (jendela bergeser)", "Snapshot terkini: apa yang terjadi Oktober 2026"],
 ], widths=[4.5 * cm, 9.5 * cm, 8.2 * cm])
 P("Endpoint BMKG (tanpa login, format JSON):", "h2")
@@ -153,12 +153,13 @@ CODE("https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json\n"
      "https://data.bmkg.go.id/DataMKG/TEWS/gempadirasakan.json")
 P("Endpoint USGS (tanpa API key, format GeoJSON):", "h2")
 CODE("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson\n"
-     "&starttime=2015-01-01&endtime=2026-10-20\n"
+     "&starttime=2015-01-01&endtime=2026-10-24\n"
      "&minlatitude=-11&maxlatitude=6&minlongitude=95&maxlongitude=141\n"
      "&minmagnitude=4.5&orderby=time&limit=20000")
 P(f"Contoh isi snapshot BMKG saat pengambilan: gempa terbaru adalah "
-  f"M{BM['gempa_terbaru_saat_ambil']['magnitudo']} di perairan Pulau Saringi "
-  f"(20 Okt 2026, 18:28 WIB), dirasakan skala III di Kabupaten Sumbawa.", "body")
+  f"M{BM['gempa_terbaru_saat_ambil']['magnitudo']} di darat 6 km Barat Laut Lebong, "
+  f"Bengkulu (22 Okt 2026, 17:57 WIB), dirasakan skala III di Kota Bengkulu dan "
+  f"Arga Makmur serta II–III di Curup.", "body")
 story.append(PageBreak())
 
 # ---------- BAB 3 ----------
@@ -171,7 +172,7 @@ B(f"Kejadian berlabel negara lain pada kolom place (Philippines, Malaysia, "
 B(f"Kejadian berlabel 'Timor Leste' DIPERTAHANKAN ({fmt(M['berlabel_timor_leste_dipertahankan'])} kejadian): "
   "USGS melabeli gempa dengan kota terdekat, dan episentrum kejadian ini berada di "
   "perairan Indonesia utara/timur Pulau Timor (sekitar P. Kisar, Wetar, Romang di NTT).")
-B("Hasil akhir: katalog bersih 9.595 kejadian di data/gempa_katalog_2015_2026.csv.")
+B(f"Hasil akhir: katalog bersih {fmt(M['total_kejadian'])} kejadian di data/gempa_katalog_2015_2026.csv.")
 P("Menurunkan dua kolom baru", "h2")
 B("Wilayah: dari nama laut pada label USGS (Laut Banda, Laut Maluku, dst.), "
   "kalau tidak ada, dari kotak koordinat pulau terdekat (Sumatera, Jawa, Sulawesi, ...).")
@@ -205,11 +206,11 @@ story.append(PageBreak())
 P("Bab 5 — Temuan 1: Frekuensi dan Magnitudo", "h1")
 P(f"Indonesia diguncang rata-rata {fmt(int(F['rata_per_tahun_penuh']))} gempa M≥4,5 per tahun penuh. "
   f"Tahun tersibuk adalah 2019 ({fmt(F['per_tahun']['2019'])} kejadian), tersepi 2016 "
-  f"({fmt(F['per_tahun']['2016'])}). Tahun 2026 baru berjalan sampai 20 Oktober, tetapi sudah "
+  f"({fmt(F['per_tahun']['2016'])}). Tahun 2026 baru berjalan sampai 24 Oktober, tetapi sudah "
   f"mencatat {fmt(F['per_tahun']['2026'])} kejadian.", "body")
 CHART("01_per_tahun.png", "Jumlah gempa per tahun. 2026 (amber) bersifat parsial.", ratio=0.42)
-P("Sebagian besar gempa itu kecil: median magnitudo hanya 4,7. Yang mencapai M≥6 "
-  "hanya 155 kali dalam 12 tahun, dan M≥7 hanya 16 kali. Inilah pola hukum "
+P(f"Sebagian besar gempa itu kecil: median magnitudo hanya 4,7. Yang mencapai M≥6 "
+  f"hanya {fmt(MG['m6plus'])} kali dalam 12 tahun, dan M≥7 hanya {MG['m7plus']} kali. Inilah pola hukum "
   "Gutenberg–Richter: naik 1 skala, frekuensi turun sekitar 10 kali lipat.", "body")
 CHART("03_distribusi_magnitudo.png", "Distribusi magnitudo: menumpuk di 4,5–5,0, menipis ke kanan.", ratio=0.44)
 story.append(PageBreak())
@@ -244,7 +245,7 @@ for name, v in list(WL.items())[:6]:
 TABLE(top_rows, widths=[7 * cm, 4 * cm, 4 * cm, 3 * cm])
 P(f"Wilayah teraktif adalah {F['wilayah_teraktif']} ({fmt(WL[F['wilayah_teraktif']]['jumlah'])} kejadian) — "
   "zona Laut Maluku adalah salah satu kawasan seismik paling aktif di dunia. "
-  "Sebaliknya Kalimantan hanya mencatat 15 kejadian dalam 12 tahun karena jauh "
+  f"Sebaliknya Kalimantan hanya mencatat {WL['Kalimantan']['jumlah']} kejadian dalam 12 tahun karena jauh "
   "dari batas lempeng.", "body")
 story.append(PageBreak())
 
@@ -258,9 +259,10 @@ CHART("10_tsunami_per_tahun.png", "Gempa berflag tsunami per tahun (USGS).", rat
 P("Snapshot Oktober 2026 (BMKG)", "h2")
 P(f"Dari daftar 15 gempa M5+ terbaru BMKG, {len(BM['okt2026_dari_terkini'])} terjadi di Oktober 2026 — "
   "termasuk M6,1 Kodi, Sumba Barat Daya (4 Okt), M5,7 Sukabumi (11 Okt), M5,7 Pohuwato, "
-  "Gorontalo (12 Okt), dan M5,3 Labuan Bajo (18 Okt). Bulan yang sibuk bahkan menurut "
+  "Gorontalo (12 Okt), M5,4 Meulaboh, Aceh Barat (20 Okt), dan M5,2 Lebong, Bengkulu "
+  "(22 Okt). Bulan yang sibuk bahkan menurut "
   "standar Indonesia.", "body")
-CHART("12_snapshot_bmkg.png", "15 gempa M5+ terbaru versi BMKG, diambil 20 Oktober 2026.", ratio=0.44)
+CHART("12_snapshot_bmkg.png", "15 gempa M5+ terbaru versi BMKG, diambil 24 Oktober 2026.", ratio=0.44)
 story.append(PageBreak())
 
 # ---------- BAB 9 ----------
@@ -289,7 +291,7 @@ story.append(PageBreak())
 # ---------- PENUTUP ----------
 P("Penutup", "h1")
 P("Tiga pesan utama project ini:", "body")
-B(f"1. Gempa M≥4,5 terjadi rata-rata {fmt(int(F['rata_per_tahun_penuh']))} kali per tahun di Indonesia — dan 71,3% di antaranya dangkal.")
+B(f"1. Gempa M≥4,5 terjadi rata-rata {fmt(int(F['rata_per_tahun_penuh']))} kali per tahun di Indonesia — dan {str(KD['Dangkal (<70 km)']['persen']).replace('.', ',')}% di antaranya dangkal.")
 B("2. Risiko besar terkonsentrasi di timur: Halmahera–Maluku, Laut Banda, NTT, Sulawesi.")
 B(f"3. Gempa M≥7 langka ({MG['m7plus']} kali dalam 12 tahun) tetapi pasti datang lagi — kesiapsiagaan bukan pilihan.")
 P("Glosarium singkat", "h2")
