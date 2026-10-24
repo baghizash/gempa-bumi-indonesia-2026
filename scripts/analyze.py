@@ -66,11 +66,11 @@ F["meta"] = {
     "katalog_mentah_usgs": int(_raw_n),
     "dikeluarkan_label_negara_lain": int(_raw_n - len(df)),
     "berlabel_timor_leste_dipertahankan": int(df["lokasi_usgs"].str.contains("Timor Leste").sum()),
-    "periode": "1 Januari 2015 – 20 Oktober 2026",
-    "tahun_2026_partial": "2026 hanya sampai 20 Oktober",
+    "periode": "1 Januari 2015 – 24 Oktober 2026",
+    "tahun_2026_partial": "2026 hanya sampai 24 Oktober",
     "ambang_magnitudo": 4.5,
     "sumber_katalog": "USGS FDSN Event API (kotak batas Indonesia)",
-    "sumber_snapshot": "BMKG TEWS (autogempa, gempaterkini, gempadirasakan), diambil 20 Oktober 2026",
+    "sumber_snapshot": "BMKG TEWS (autogempa, gempaterkini, gempadirasakan), diambil 24 Oktober 2026",
 }
 
 # ---------- per tahun & tren ----------
@@ -84,7 +84,7 @@ colors = [ACCENT if y == 2026 else PRIMARY for y in per_tahun.index]
 ax.bar(per_tahun.index.astype(str), per_tahun.values, color=colors)
 for x, v in zip(per_tahun.index.astype(str), per_tahun.values):
     ax.text(x, v + 18, f"{v:,}".replace(",", "."), ha="center", fontsize=9)
-ax.set_title("Jumlah Gempa M$\geq$4,5 per Tahun (2026 = s.d. 20 Okt, warna oranye)")
+ax.set_title("Jumlah Gempa M$\geq$4,5 per Tahun (2026 = s.d. 24 Okt, warna oranye)")
 ax.set_ylabel("Jumlah kejadian")
 save(fig, "01_per_tahun.png")
 
@@ -260,7 +260,7 @@ fig, ax = plt.subplots(figsize=(8.6, 3.8))
 ax.barh([f"{t} - {w.split('|')[0][:34]}" for t, w in zip(bm["tanggal"], bm["wilayah"])],
         bm["magnitudo"], color=ACCENT)
 ax.set_xlim(4.6, 6.3)
-ax.set_title("Snapshot BMKG: 15 Gempa M5+ Terbaru (diambil 20 Okt 2026)")
+ax.set_title("Snapshot BMKG: 15 Gempa M5+ Terbaru (diambil 24 Okt 2026)")
 ax.set_xlabel("Magnitudo")
 save(fig, "12_snapshot_bmkg.png")
 
