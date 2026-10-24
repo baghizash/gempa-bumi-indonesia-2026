@@ -3,17 +3,17 @@
 Indonesia duduk di pertemuan empat lempeng tektonik besar — Indo-Australia,
 Eurasia, Pasifik, dan Laut Filipina. Konsekuensinya: gempa adalah bagian dari
 kehidupan sehari-hari. Project ini mengukur seberapa sering, seberapa besar,
-dan di mana saja gempa itu terjadi, memakai **9.595 kejadian M≥4,5** pada
-1 Januari 2015 – 20 Oktober 2026, plus snapshot real-time BMKG.
+dan di mana saja gempa itu terjadi, memakai **9.600 kejadian M≥4,5** pada
+1 Januari 2015 – 24 Oktober 2026, plus snapshot real-time BMKG.
 
 ![Peta sebaran gempa](charts/08_peta_sebaran.png)
 
 ## Temuan utama
 
-- **9.595 gempa M≥4,5** dalam ±12 tahun — rata-rata **783 kejadian per tahun
-  penuh**. Tahun tersibuk: **2019 (1.040 kejadian)**; 2026 sudah mencatat 982
-  kejadian padahal baru sampai 20 Oktober.
-- **2.233 gempa mencapai M≥5,0; 155 mencapai M≥6,0; 16 mencapai M≥7,0.**
+- **9.600 gempa M≥4,5** dalam ±12 tahun — rata-rata **783 kejadian per tahun
+  penuh**. Tahun tersibuk: **2019 (1.040 kejadian)**; 2026 sudah mencatat 987
+  kejadian padahal baru sampai 24 Oktober.
+- **2.234 gempa mencapai M≥5,0; 155 mencapai M≥6,0; 16 mencapai M≥7,0.**
   Gempa terbesar: **M7,8 di 66 km NNW Ende, NTT (15 Agustus 2026)**, kedalaman
   hanya 10 km. Terbesar kedua: M7,6 Kepulauan Tanimbar (10 Jan 2023), lalu
   M7,5 Palu, Sulawesi (28 Sep 2018).
@@ -21,14 +21,15 @@ dan di mana saja gempa itu terjadi, memakai **9.595 kejadian M≥4,5** pada
   merusak karena energinya dekat ke permukaan. Kombinasi dangkal + M≥6 terjadi
   **106 kali**. Kedalaman median hanya 36,2 km; yang terdalam 652,5 km.
 - **Wilayah teraktif: Halmahera & Maluku Utara (2.061 kejadian)**, disusul
-  Sumatera (1.514), Papua (1.108), dan Sulawesi (1.061). Kalimantan nyaris
+  Sumatera (1.517), Papua (1.108), dan Sulawesi (1.061). Kalimantan nyaris
   bebas gempa (15 kejadian) — jauh dari batas lempeng.
 - **17 gempa berflag tsunami** pada katalog USGS, termasuk M7,3 Laut Banda
   (24 Jun 2019) dan M7,3 Laut Flores (14 Des 2021). Flag ini berarti "dinilai
   berpotensi", bukan bukti tsunami merusak terjadi.
-- **Snapshot BMKG Oktober 2026:** 10 gempa M5+ dalam 18 hari pertama, termasuk
-  M6,1 Kodi, Sumba Barat Daya (4 Okt), M5,7 Pohuwato, Gorontalo (12 Okt),
-  M5,7 Sukabumi, Jawa Barat (11 Okt), dan M5,3 Labuan Bajo, NTT (18 Okt).
+- **Snapshot BMKG Oktober 2026:** 13 gempa M5+ masuk daftar 15 gempa M5+
+  terbaru per 24 Oktober, termasuk M6,1 Kodi, Sumba Barat Daya (4 Okt),
+  M5,7 Pohuwato, Gorontalo (12 Okt), M5,7 Sukabumi, Jawa Barat (11 Okt),
+  M5,4 Meulaboh, Aceh Barat (20 Okt), dan M5,2 Lebong, Bengkulu (22 Okt).
 
 ## Sumber data (dinyatakan terbuka)
 
@@ -37,9 +38,9 @@ dan di mana saja gempa itu terjadi, memakai **9.595 kejadian M≥4,5** pada
 | **USGS FDSN Event API** | Katalog historis 2015–2026 (kotak batas Indonesia, M≥4,5) | Publik, tanpa kunci |
 | **BMKG TEWS API** | Snapshot terkini: gempa terbaru, 15 gempa M5+, 15 gempa dirasakan | Publik, tanpa auth |
 
-Dari 10.841 kejadian mentah USGS, 1.246 dikeluarkan karena berlabel negara
+Dari 10.847 kejadian mentah USGS, 1.247 dikeluarkan karena berlabel negara
 lain (Filipina, Malaysia, Papua Nugini, Palau) — kotak batas memang menangkap
-pinggiran tetangga. 670 kejadian berlabel "Timor Leste" dipertahankan karena
+pinggiran tetangga. 672 kejadian berlabel "Timor Leste" dipertahankan karena
 episentrumnya berada di perairan Indonesia utara/timur Pulau Timor.
 Detail lengkap, termasuk aturan penentuan wilayah dan kelas kedalaman:
 [data/SOURCES.md](data/SOURCES.md).
@@ -51,7 +52,7 @@ Detail lengkap, termasuk aturan penentuan wilayah dan kelas kedalaman:
 ├── findings.json              semua temuan (format mesin, dari scripts/analyze.py)
 ├── analysis.ipynb             notebook analisis (ringkasan + chart utama)
 ├── data/
-│   ├── gempa_katalog_2015_2026.csv   katalog bersih (9.595 baris)
+│   ├── gempa_katalog_2015_2026.csv   katalog bersih (9.600 baris)
 │   ├── bmkg_terkini.csv              snapshot BMKG 15 gempa M5+
 │   ├── bmkg_dirasakan.csv            snapshot BMKG 15 gempa dirasakan
 │   ├── bmkg_autogempa.csv            gempa terbaru saat pengambilan
@@ -91,4 +92,6 @@ dicek silang dengan `sql/queries.sql` terhadap `data/gempa_bumi.db`.
 
 ---
 Dibuat oleh **Baghiz Asshiddiqie Arasya** — portfolio Data Analyst.
-Data: USGS (domain publik) & BMKG (API publik). Diambil 20 Oktober 2026.
+Data: USGS (domain publik) & BMKG (API publik). Diambil 24 Oktober 2026
+(pembaruan dari pengambilan pertama 20 Oktober 2026; katalog bersih bertambah
+netto 5 kejadian, rincian revisi USGS ada di data/SOURCES.md).
