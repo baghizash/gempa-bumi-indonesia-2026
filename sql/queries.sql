@@ -9,7 +9,7 @@ SELECT COUNT(*) AS total_kejadian, MIN(magnitudo) AS mag_min,
        MAX(magnitudo) AS mag_maks, MAX(kedalaman_km) AS terdalam_km
 FROM fact_gempa;
 
--- Q2. Jumlah gempa per tahun (2026 parsial, s.d. 20 Okt)
+-- Q2. Jumlah gempa per tahun (2026 parsial, s.d. 24 Okt)
 SELECT t.tahun, COUNT(*) AS jumlah
 FROM fact_gempa f JOIN dim_tanggal t ON t.tanggal = f.tanggal
 GROUP BY t.tahun ORDER BY t.tahun;
