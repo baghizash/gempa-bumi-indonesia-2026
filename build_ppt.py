@@ -159,7 +159,7 @@ add_par(tf, "M" + idnum(MG["terbesar"]["magnitudo"]), 44, WHITE, bold=True, firs
 add_par(tf, "GEMPA TERBESAR: ENDE, NTT (2026-08-15), KEDALAMAN 10 KM", 11.5, GROUND, bold=True, space_after=0, line=1.1)
 rect(s, 8.55, 6.5, 4.783, 1.0, ACCENT)
 tf = textbox(s, 8.95, 6.82, 4.0, 0.5)
-add_par(tf, "SNAPSHOT BMKG: 20 OKTOBER 2026", 12.5, INK, bold=True, first=True, space_after=0)
+add_par(tf, "SNAPSHOT BMKG: 24 OKTOBER 2026", 12.5, INK, bold=True, first=True, space_after=0)
 rect(s, 0.7, 0.85, 0.28, 0.28, ACCENT)
 tf = textbox(s, 0.7, 1.35, 7.5, 2.0)
 add_par(tf, "GEMPA BUMI INDONESIA", 43, INK, bold=True, first=True, space_after=0)
@@ -169,7 +169,7 @@ add_par(tf, "Seberapa Sering, Seberapa Besar, dan Di Mana Gempa Mengguncang Indo
         19, INK, first=True, space_after=0, line=1.15)
 tf = textbox(s, 0.7, 4.5, 7.2, 1.3)
 add_par(tf, f"Katalog USGS {fmt(M['total_kejadian'])} gempa M≥4,5, 1 Januari 2015 sampai "
-            "20 Oktober 2026, plus snapshot real-time BMKG.", 14.5, INK, first=True, line=1.15)
+            "24 Oktober 2026, plus snapshot real-time BMKG.", 14.5, INK, first=True, line=1.15)
 add_par(tf, "Plus: paket dashboard Power BI (star schema, DAX, panduan rakit).", 14.5, INK, line=1.15)
 rect(s, 0.7, 6.18, 1.6, 0.07, PRIMARY)
 tf = textbox(s, 0.7, 6.38, 7.5, 0.55)
@@ -192,7 +192,7 @@ bullets(s, [
 ], 0.7, 1.6, 7.5, 4.9)
 stat_block(s, 8.6, 1.6, 4.0, 2.2, "4", "LEMPENG TEKTONIK BERTEMU DI INDONESIA", PRIMARY, WHITE, num_size=54)
 stat_block(s, 8.6, 4.0, 4.0, 2.2, "12", "TAHUN KATALOG USGS: 2015-2026", ACCENT, INK, num_size=54)
-caption(s, "Sumber data: USGS FDSN Event API (katalog historis) dan BMKG TEWS (snapshot real-time), diambil 20 Oktober 2026.")
+caption(s, "Sumber data: USGS FDSN Event API (katalog historis) dan BMKG TEWS (snapshot real-time), diambil 24 Oktober 2026.")
 bottom_strip(s)
 
 # ---- Slide 3: Data dan metode ----
@@ -225,7 +225,7 @@ bullets(s, [
     "Tidak ada tren naik/turun yang jelas: aktivitas berfluktuasi mengikuti "
     "rangkaian gempa besar dan gempa susulannya.",
     f"Tahun tersibuk: 2019 dengan {fmt(F['per_tahun']['2019'])} kejadian; tersepi: 2016 ({fmt(F['per_tahun']['2016'])}).",
-    f"2026 baru berjalan sampai 20 Oktober tetapi sudah mencatat {fmt(F['per_tahun']['2026'])} kejadian, "
+    f"2026 baru berjalan sampai 24 Oktober tetapi sudah mencatat {fmt(F['per_tahun']['2026'])} kejadian, "
     "setara tahun penuh yang sibuk, didorong rangkaian gempa besar tahun ini.",
 ], 0.7, 1.6, 5.5, 3.4)
 tf = textbox(s, 0.7, 5.2, 5.5, 1.5)
@@ -320,22 +320,24 @@ title_block(s, "Snapshot BMKG: Oktober 2026", ACCENT)
 chart_panel(s, "12_snapshot_bmkg", 0.7, 1.6, 6.08, 3.3)
 stat_block(s, 0.7, 5.1, 6.08, 1.3, "M6,1", "TERBESAR OKTOBER 2026: KODI, SUMBA BARAT DAYA (4 OKT)", PRIMARY, WHITE, num_size=30)
 bullets(s, [
-    f"Dalam 18 hari pertama Oktober 2026 saja, BMKG mencatat {len(okt)} gempa M5+, "
-    "termasuk M6,1 di Kodi, Sumba Barat Daya (4 Okt) dan M5,8 di Tahuna, Kep. Sangihe (8 Okt).",
-    "Dua gempa M5,7 berurutan: Sukabumi, Jawa Barat (11 Okt, dangkal 10 km) dan "
-    "Pohuwato, Gorontalo (12 Okt). Terakhir di daftar: M5,3 Labuan Bajo, NTT (18 Okt).",
-    f"Gempa terbaru saat data diambil: M{idnum(BM['gempa_terbaru_saat_ambil']['magnitudo'])} di perairan "
-    "Pulau Saringi (20 Okt, 18:28 WIB), dirasakan III di Kabupaten Sumbawa. "
-    "Bukti bahwa katalog ini hidup: gempa terjadi bahkan saat analisis dikerjakan.",
+    f"Sampai 24 Oktober 2026, daftar 15 gempa M5+ terbaru BMKG memuat {len(okt)} gempa "
+    "Oktober 2026, termasuk M6,1 di Kodi, Sumba Barat Daya (4 Okt) dan M5,8 di Tahuna, "
+    "Kep. Sangihe (8 Okt).",
+    "Tiga gempa M5+ terbaru: M5,4 Meulaboh, Aceh Barat (20 Okt), M5,1 Maluku Barat Daya "
+    "(21 Okt), dan M5,2 Lebong, Bengkulu (22 Okt). Dua gempa M5,7 bulan ini: Sukabumi, "
+    "Jawa Barat (11 Okt, dangkal 10 km) dan Pohuwato, Gorontalo (12 Okt).",
+    f"Gempa terbaru saat data diambil: M{idnum(BM['gempa_terbaru_saat_ambil']['magnitudo'])} di darat "
+    "6 km Barat Laut Lebong, Bengkulu (22 Okt, 17:57 WIB), dirasakan III di Kota Bengkulu "
+    "dan Arga Makmur. Bukti bahwa katalog ini hidup: gempa terjadi bahkan saat analisis dikerjakan.",
 ], 7.1, 1.6, 5.53, 4.9)
-caption(s, "Chart: 15 gempa M5+ terbaru versi BMKG (snapshot 20 Oktober 2026).")
+caption(s, "Chart: 15 gempa M5+ terbaru versi BMKG (snapshot 24 Oktober 2026).")
 bottom_strip(s)
 
 # ---- Slide 10: Penutup (Designed Close) ----
 s = prs.slides.add_slide(blank)
 bg(s)
 title_block(s, "Penutup", PRIMARY)
-stat_block(s, 0.7, 1.6, 3.91, 1.3, RATA, "GEMPA M≥4,5 PER TAHUN, 71,3% DI ANTARANYA DANGKAL", PRIMARY, WHITE, num_size=28)
+stat_block(s, 0.7, 1.6, 3.91, 1.3, RATA, f"GEMPA M≥4,5 PER TAHUN, {idnum(DK['persen'])}% DI ANTARANYA DANGKAL", PRIMARY, WHITE, num_size=28)
 stat_block(s, 4.71, 1.6, 3.91, 1.3, str(MG["m7plus"]), "GEMPA M≥7,0 DALAM 12 TAHUN: LANGKA, TANPA JADWAL", ACCENT, INK, num_size=28)
 stat_block(s, 8.72, 1.6, 3.91, 1.3, fmt(WL[WA]["jumlah"]), "KEJADIAN DI HALMAHERA DAN MALUKU UTARA, WILAYAH TERAKTIF", REDSOFT, INK, num_size=28)
 tf = textbox(s, 0.7, 3.3, 11.93, 1.0)
