@@ -1,14 +1,14 @@
 {
   "meta": {
-    "total_kejadian": 9595,
-    "katalog_mentah_usgs": 10841,
-    "dikeluarkan_label_negara_lain": 1246,
-    "berlabel_timor_leste_dipertahankan": 670,
-    "periode": "1 Januari 2015 – 20 Oktober 2026",
-    "tahun_2026_partial": "2026 hanya sampai 20 Oktober",
+    "total_kejadian": 9600,
+    "katalog_mentah_usgs": 10847,
+    "dikeluarkan_label_negara_lain": 1247,
+    "berlabel_timor_leste_dipertahankan": 672,
+    "periode": "1 Januari 2015 – 24 Oktober 2026",
+    "tahun_2026_partial": "2026 hanya sampai 24 Oktober",
     "ambang_magnitudo": 4.5,
     "sumber_katalog": "USGS FDSN Event API (kotak batas Indonesia)",
-    "sumber_snapshot": "BMKG TEWS (autogempa, gempaterkini, gempadirasakan), diambil 20 Oktober 2026"
+    "sumber_snapshot": "BMKG TEWS (autogempa, gempaterkini, gempadirasakan), diambil 24 Oktober 2026"
   },
   "per_tahun": {
     "2015": 769,
@@ -22,10 +22,10 @@
     "2023": 883,
     "2024": 671,
     "2025": 752,
-    "2026": 982
+    "2026": 987
   },
   "magnitudo": {
-    "m5plus": 2233,
+    "m5plus": 2234,
     "m6plus": 155,
     "m7plus": 16,
     "median": 4.7,
@@ -40,11 +40,11 @@
   },
   "kedalaman": {
     "Dangkal (<70 km)": {
-      "jumlah": 6841,
+      "jumlah": 6844,
       "persen": 71.3
     },
     "Menengah (70-300 km)": {
-      "jumlah": 2439,
+      "jumlah": 2441,
       "persen": 25.4
     },
     "Dalam (>300 km)": {
@@ -62,7 +62,7 @@
       "m6plus": 23
     },
     "Sumatera": {
-      "jumlah": 1514,
+      "jumlah": 1517,
       "mag_maks": 7.1,
       "m6plus": 29
     },
@@ -82,12 +82,12 @@
       "m6plus": 10
     },
     "Nusa Tenggara Timur": {
-      "jumlah": 716,
+      "jumlah": 717,
       "mag_maks": 7.8,
       "m6plus": 10
     },
     "Lainnya/Lepas Pantai": {
-      "jumlah": 711,
+      "jumlah": 712,
       "mag_maks": 7.6,
       "m6plus": 16
     },
@@ -211,6 +211,30 @@
   "bmkg": {
     "terkini_m5plus": [
       {
+        "tanggal": "22 Okt 2026",
+        "jam": "17:57:49 WIB",
+        "magnitudo": 5.2,
+        "kedalaman": "120 km",
+        "wilayah": "6 km BaratLaut LEBONG-BENGKULU",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "21 Okt 2026",
+        "jam": "14:44:15 WIB",
+        "magnitudo": 5.1,
+        "kedalaman": "96 km",
+        "wilayah": "62 km TimurLaut MALUKUBRTDAYA",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
+        "tanggal": "20 Okt 2026",
+        "jam": "23:29:35 WIB",
+        "magnitudo": 5.4,
+        "kedalaman": "74 km",
+        "wilayah": "59 km BaratDaya MEULABOH-ACEHBARAT",
+        "potensi": "Tidak berpotensi tsunami"
+      },
+      {
         "tanggal": "18 Okt 2026",
         "jam": "15:00:08 WIB",
         "magnitudo": 5.3,
@@ -305,72 +329,63 @@
         "kedalaman": "10 km",
         "wilayah": "26 km BaratDaya PULAUPUAH-SULTENG",
         "potensi": "Tidak berpotensi tsunami"
-      },
-      {
-        "tanggal": "21 Sep 2026",
-        "jam": "08:41:37 WIB",
-        "magnitudo": 5.3,
-        "kedalaman": "10 km",
-        "wilayah": "34 km TimurLaut RUTENG-MANGGARAI-NTT",
-        "potensi": "Tidak berpotensi tsunami"
-      },
-      {
-        "tanggal": "19 Sep 2026",
-        "jam": "11:18:36 WIB",
-        "magnitudo": 5.1,
-        "kedalaman": "10 km",
-        "wilayah": "33 km TimurLaut SARMI-PAPUA",
-        "potensi": "Tidak berpotensi tsunami"
-      },
-      {
-        "tanggal": "18 Sep 2026",
-        "jam": "21:36:17 WIB",
-        "magnitudo": 5.2,
-        "kedalaman": "10 km",
-        "wilayah": "198 km BaratDaya BAYAH-BANTEN",
-        "potensi": "Tidak berpotensi tsunami"
       }
     ],
     "dirasakan_terbaru": [
+      {
+        "tanggal": "22 Okt 2026",
+        "magnitudo": 5.2,
+        "wilayah": "Pusat gempa berada di darat 6 km BaratLaut Lebong",
+        "dirasakan": "III Kota Bengkulu, II - III Curup, III Arga Makmur"
+      },
+      {
+        "tanggal": "21 Okt 2026",
+        "magnitudo": 2.5,
+        "wilayah": "Pusat gempa berada di darat 9 km utara Tanggamus",
+        "dirasakan": "II Tanggamus"
+      },
+      {
+        "tanggal": "21 Okt 2026",
+        "magnitudo": 3.9,
+        "wilayah": "Pusat gempa berada di darat 10 km utara Tanggamus",
+        "dirasakan": "III Ulu Belu, Tanggamus, III Pulau Panggung, Tanggamus"
+      },
+      {
+        "tanggal": "20 Okt 2026",
+        "magnitudo": 5.4,
+        "wilayah": "Pusat gempa berada di laut 59 km barat daya Meulaboh",
+        "dirasakan": "III Kab. Aceh Selatan, III Kab. Simeulue, III-IV Kab. Aceh Barat, III-IV Kab. Aceh Barat Daya, II Kab. Bener Meriah, II-III Kota Banda Aceh, II-III Kab. Aceh Besar , III-IV Kab. Nagan Raya"
+      },
       {
         "tanggal": "20 Okt 2026",
         "magnitudo": 3.7,
         "wilayah": "Pusat gempa berada di laut 6 km Barat Laut Pulau Saringi",
         "dirasakan": "III Kab. Sumbawa"
-      },
-      {
-        "tanggal": "20 Okt 2026",
-        "magnitudo": 3.4,
-        "wilayah": "Pusat gempa berada di darat 30km Barat Daya Kab. Kupang",
-        "dirasakan": "III Kab. Kupang, III Kota Kupang"
-      },
-      {
-        "tanggal": "19 Okt 2026",
-        "magnitudo": 4.2,
-        "wilayah": "Pusat gempa berada di darat 26 km Timur Laut Kab. Gayo Lues",
-        "dirasakan": "III Kab. Gayo Lues, II Aceh Timur"
-      },
-      {
-        "tanggal": "19 Okt 2026",
-        "magnitudo": 4.5,
-        "wilayah": "Pusat gempa berada di laut 60 km Utara Labuanbajo",
-        "dirasakan": "II Kab. Manggarai"
-      },
-      {
-        "tanggal": "19 Okt 2026",
-        "magnitudo": 4.7,
-        "wilayah": "Pusat gempa berada di laut 61 km utara Labuan Bajo",
-        "dirasakan": "II Kab. Manggarai"
       }
     ],
     "gempa_terbaru_saat_ambil": {
-      "tanggal": "20 Okt 2026",
-      "jam": "18:28:11 WIB",
-      "magnitudo": 3.7,
-      "wilayah": "Pusat gempa berada di laut 6 km Barat Laut Pulau Saringi",
-      "dirasakan": "III Kab. Sumbawa"
+      "tanggal": "22 Okt 2026",
+      "jam": "17:57:49 WIB",
+      "magnitudo": 5.2,
+      "wilayah": "Pusat gempa berada di darat 6 km BaratLaut Lebong",
+      "dirasakan": "III Kota Bengkulu, II - III Curup, III Arga Makmur"
     },
     "okt2026_dari_terkini": [
+      {
+        "tanggal": "22 Okt 2026",
+        "magnitudo": 5.2,
+        "wilayah": "6 km BaratLaut LEBONG-BENGKULU"
+      },
+      {
+        "tanggal": "21 Okt 2026",
+        "magnitudo": 5.1,
+        "wilayah": "62 km TimurLaut MALUKUBRTDAYA"
+      },
+      {
+        "tanggal": "20 Okt 2026",
+        "magnitudo": 5.4,
+        "wilayah": "59 km BaratDaya MEULABOH-ACEHBARAT"
+      },
       {
         "tanggal": "18 Okt 2026",
         "magnitudo": 5.3,
