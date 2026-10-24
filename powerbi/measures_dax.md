@@ -46,8 +46,8 @@ CALCULATE ( [Total Gempa], fact_gempa[flag_tsunami] = 1 )
 
 | Measure | Nilai benar |
 |---|---|
-| Total Gempa | 9.595 |
-| Gempa M5plus | 2.233 |
+| Total Gempa | 9.600 |
+| Gempa M5plus | 2.234 |
 | Gempa M6plus | 155 |
 | Gempa M7plus | 16 |
 | Magnitudo Maksimum | 7,8 (Ende, NTT — 15 Agu 2026) |
@@ -56,7 +56,7 @@ CALCULATE ( [Total Gempa], fact_gempa[flag_tsunami] = 1 )
 | Gempa Dangkal Besar | 106 |
 | Gempa Berflag Tsunami | 17 |
 
-Catatan filter: tahun 2026 hanya berisi data sampai 20 Oktober 2026.
+Catatan filter: tahun 2026 hanya berisi data sampai 24 Oktober 2026.
 Saat membandingkan antar tahun, beri catatan itu di visual (sudah ada di
 layout Halaman 1) agar pembaca tidak salah menyimpulkan 2026 "lebih sepi"
 atau "lebih ramai" dari tahun penuh.
