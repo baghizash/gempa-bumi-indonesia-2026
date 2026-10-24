@@ -6,7 +6,7 @@
    - gempaterkini.json   : 15 gempa M5+ terbaru
    - gempadirasakan.json : 15 gempa dirasakan terbaru
 2. USGS FDSN Event API (katalog historis): bbox Indonesia,
-   2015-01-01 s.d. 2026-10-20, magnitudo >= 4.5.
+   2015-01-01 s.d. 2026-10-24, magnitudo >= 4.5.
 
 Output: data/raw/*.json, data/raw/usgs_katalog.geojson
 """
@@ -27,7 +27,7 @@ for name in ["autogempa", "gempaterkini", "gempadirasakan"]:
 
 USGS = (
     "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
-    "&starttime=2015-01-01&endtime=2026-10-20"
+    "&starttime=2015-01-01&endtime=2026-10-24"
     "&minlatitude=-11&maxlatitude=6&minlongitude=95&maxlongitude=141"
     "&minmagnitude=4.5&orderby=time&limit=20000"
 )
