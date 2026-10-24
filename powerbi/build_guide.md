@@ -30,7 +30,7 @@ Maksimum` dengan 1 desimal.
 
 ## 5. Verifikasi sebelum publish
 Bandingkan kartu KPI Halaman 1 dengan tabel verifikasi di `measures_dax.md`:
-Total 9.595 · M5plus 2.233 · M6plus 155 · M7plus 16 · Maks 7,8 ·
+Total 9.600 · M5plus 2.234 · M6plus 155 · M7plus 16 · Maks 7,8 ·
 Persen Dangkal 71,3%. Kalau beda, periksa: (a) slicer/filter yang tertinggal,
 (b) relasi yang belum aktif, (c) tipe data magnitudo terbaca sebagai teks.
 
