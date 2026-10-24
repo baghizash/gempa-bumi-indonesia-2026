@@ -1,4 +1,7 @@
 tanggal,jam,datetime_utc,lintang,bujur,magnitudo,kedalaman,wilayah,potensi,dirasakan
+22 Okt 2026,17:57:49 WIB,2026-10-22T10:57:49+00:00,-3.11,102.14,5.2,120 km,6 km BaratLaut LEBONG-BENGKULU,Tidak berpotensi tsunami,-
+21 Okt 2026,14:44:15 WIB,2026-10-21T07:44:15+00:00,-7.75,128.18,5.1,96 km,62 km TimurLaut MALUKUBRTDAYA,Tidak berpotensi tsunami,-
+20 Okt 2026,23:29:35 WIB,2026-10-20T16:29:35+00:00,3.79,95.72,5.4,74 km,59 km BaratDaya MEULABOH-ACEHBARAT,Tidak berpotensi tsunami,-
 18 Okt 2026,15:00:08 WIB,2026-10-18T08:00:08+00:00,-8.09,120.26,5.3,10 km,60 km TimurLaut LABUANBAJO-NTT,Tidak berpotensi tsunami,-
 12 Okt 2026,04:34:53 WIB,2026-10-11T21:34:53+00:00,0.64,121.75,5.7,76 km,29 km BaratLaut POHUWATO-GORONTALO,Tidak berpotensi tsunami,-
 11 Okt 2026,10:30:20 WIB,2026-10-11T03:30:20+00:00,-8.73,106.47,5.7,10 km,193 km BaratDaya KAB-SUKABUMI-JABAR,Tidak berpotensi tsunami,-
@@ -11,6 +14,3 @@ tanggal,jam,datetime_utc,lintang,bujur,magnitudo,kedalaman,wilayah,potensi,diras
 01 Okt 2026,21:20:00 WIB,2026-10-01T14:20:00+00:00,-7.07,120.8,5.1,10 km,111 km Tenggara SELAYAR-SULSEL,Tidak berpotensi tsunami,-
 22 Sep 2026,06:48:13 WIB,2026-09-21T23:48:13+00:00,4.74,125.3,5.2,10 km,127 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT,Tidak berpotensi tsunami,-
 21 Sep 2026,14:31:07 WIB,2026-09-21T07:31:07+00:00,-0.7,122.45,5.3,10 km,26 km BaratDaya PULAUPUAH-SULTENG,Tidak berpotensi tsunami,-
-21 Sep 2026,08:41:37 WIB,2026-09-21T01:41:37+00:00,-8.33,120.59,5.3,10 km,34 km TimurLaut RUTENG-MANGGARAI-NTT,Tidak berpotensi tsunami,-
-19 Sep 2026,11:18:36 WIB,2026-09-19T04:18:36+00:00,-1.6,138.88,5.1,10 km,33 km TimurLaut SARMI-PAPUA,Tidak berpotensi tsunami,-
-18 Sep 2026,21:36:17 WIB,2026-09-18T14:36:17+00:00,-8.64,105.74,5.2,10 km,198 km BaratDaya BAYAH-BANTEN,Tidak berpotensi tsunami,-
